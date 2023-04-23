@@ -1,1 +1,208 @@
-hello
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
+
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
+
+      For more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+      This is a placeholder for base href that will be replaced by the value of
+      the `--base-href` argument provided to `flutter build`.
+    -->
+    <base href="/">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="The best events near you.">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="plunge">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    <title>plunge.</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icons/favicon.ico">
+
+    <!-- Customize home screen title. -->
+    <meta name="apple-mobile-web-app-title" content="plunge.">
+
+    <!-- Icons -->
+
+    <!-- iOS 7 iPad (retina) -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-125x125.png"
+          sizes="152x152"
+          rel="apple-touch-icon">
+
+    <!-- iOS 6 iPad (retina) -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-125x125.png"
+          sizes="144x144"
+          rel="apple-touch-icon">
+
+    <!-- iOS 7 iPhone (retina) -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-125x125.png"
+          sizes="120x120"
+          rel="apple-touch-icon">
+
+    <!-- iOS 6 iPhone (retina) -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-125x125.png"
+          sizes="114x114"
+          rel="apple-touch-icon">
+
+    <!-- iOS 7 iPad -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-125x125.png"
+          sizes="76x76"
+          rel="apple-touch-icon">
+
+    <!-- iOS 6 iPad -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-125x125.png"
+          sizes="72x72"
+          rel="apple-touch-icon">
+
+    <!-- iOS 6 iPhone -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-125x125.png"
+          sizes="57x57"
+          rel="apple-touch-icon">
+
+    <!-- Startup images -->
+
+    <!-- iOS 6 & 7 iPad (retina, portrait) -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-1200x800.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: portrait)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 & 7 iPad (retina, landscape) -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-1200x800.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: landscape)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 iPad (portrait) -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-1200x800.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: portrait)
+                 and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 iPad (landscape) -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-1200x800.png"
+          media="(device-width: 768px) and (device-height: 1024px)
+                 and (orientation: landscape)
+                 and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 & 7 iPhone 5 -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-1200x800.png"
+          media="(device-width: 320px) and (device-height: 568px)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 & 7 iPhone (retina) -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-1200x800.png"
+          media="(device-width: 320px) and (device-height: 480px)
+                 and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+
+    <!-- iOS 6 iPhone -->
+    <link href="https://api.justplunge.com/public/static/images/app-screenshot-1200x800.png"
+          media="(device-width: 320px) and (device-height: 480px)
+                 and (-webkit-device-pixel-ratio: 1)"
+          rel="apple-touch-startup-image">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaAE2PHVj_8wXLHBpIXwBNoSgt6zJ7DxM"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-28PDB0B5S9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-3KE2H58PBW');
+    </script>
+    <meta name='ir-site-verification-token' value='-1686302435'>
+    <meta name='ir-site-verification-token' value='-1664851611'>
+</head>
+<body>
+<!-- This script installs service_worker.js to provide PWA functionality to
+     application. For more information, see:
+     https://developers.google.com/web/fundamentals/primers/service-workers -->
+<script>
+    var serviceWorkerVersion = "1521271199";
+    var scriptLoaded = false;
+
+    function loadMainDartJs() {
+        if (scriptLoaded) {
+            return;
+        }
+        scriptLoaded = true;
+        var scriptTag = document.createElement('script');
+        scriptTag.src = 'main.dart.js';
+        scriptTag.type = 'application/javascript';
+        document.body.append(scriptTag);
+    }
+
+    if ('serviceWorker' in navigator) {
+        // Service workers are supported. Use them.
+        window.addEventListener('load', function () {
+            // Wait for registration to finish before dropping the <script> tag.
+            // Otherwise, the browser will load the script multiple times,
+            // potentially different versions.
+            var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+            navigator.serviceWorker.register(serviceWorkerUrl)
+                .then((reg) => {
+                    function waitForActivation(serviceWorker) {
+                        serviceWorker.addEventListener('statechange', () => {
+                            if (serviceWorker.state == 'activated') {
+                                console.log('Installed new service worker.');
+                                loadMainDartJs();
+                            }
+                        });
+                    }
+
+                    if (!reg.active && (reg.installing || reg.waiting)) {
+                        // No active web worker and we have installed or are installing
+                        // one for the first time. Simply wait for it to activate.
+                        waitForActivation(reg.installing || reg.waiting);
+                    } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
+                        // When the app updates the serviceWorkerVersion changes, so we
+                        // need to ask the service worker to update.
+                        console.log('New service worker available.');
+                        reg.update();
+                        waitForActivation(reg.installing);
+                    } else {
+                        // Existing service worker is still good.
+                        console.log('Loading app from service worker.');
+                        loadMainDartJs();
+                    }
+                });
+
+            // If service worker doesn't succeed in a reasonable amount of time,
+            // fallback to plaint <script> tag.
+            setTimeout(() => {
+                if (!scriptLoaded) {
+                    console.warn(
+                        'Failed to load app from service worker. Falling back to plain <script> tag.',
+                    );
+                    loadMainDartJs();
+                }
+            }, 4000);
+        });
+    } else {
+        // Service workers not supported. Just drop the <script> tag.
+        loadMainDartJs();
+    }
+</script>
+</body>
+</html>
